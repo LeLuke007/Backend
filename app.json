@@ -1,0 +1,21 @@
+{
+  "name": "Backend",
+  "description": "Dester's Backend",
+  "repository": "https://github.com/LeLuke007/Backend",
+  "keywords": ["Backend", "Media", "HEROKU", "Manager"],
+  "stack": "container",
+  "env": {
+    "MONGODB_DOMAIN": {
+      "description": "Enter MongoDB cluster domain",
+      "required": true
+    },
+    "MONGODB_USERNAME": {
+      "description": "Username for a MongoDB admin user",
+      "required" : true
+    },
+    "MONGODB_PASSWORD" : {
+      "description": "Password for a MongoDB admin user",
+      "required" : true
+    }
+  }
+ }
